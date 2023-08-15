@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf') format('woff');
+}
+
+body {
+    font-family: 'Raleway';
+    color: rgba(0,0, 0, 0.7);
+    background-color: rgb(238, 226, 195);
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.plate {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid ;
+    border-color: rgba(0, 0, 0, 0.35);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
+    padding: 12px;
+    height: fit-content;
+    width: 200px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.title {
+    width: 150px;
+    height: 20px;
+}
+
+.inhalt {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 150px;
+    height: 100px;
+    resize: none;
+}
+
+.close {
+    height: 15px;
+
+}
+
+.trashbin {
+    height: 40px;
+    
+    
+}
+
+.trashbin-end{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.trashcontent{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.trashcontent img {
+    height: 15px;
+    margin: 10px;
+}
+
+.piccenter {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    background-color: rgb(211, 80, 80);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.head p {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.nodec {
+    text-decoration: none;
+    color: rgba(0,0, 0, 0.7);
+}
